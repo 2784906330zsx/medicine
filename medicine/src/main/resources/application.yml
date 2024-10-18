@@ -5,9 +5,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/medicine?useUnicode=ture&characterEncoding=utf8&useSSL=true&serverTimezone=UTC
-    username: root
-    password: '000411'
+    url: jdbc:mysql://shanghai.zsxlove.love:3306/medicine?useUnicode=ture&characterEncoding=utf8&useSSL=true&serverTimezone=UTC
+    username: medicine
+    password: BexbaekHckS3yznf
     type: com.alibaba.druid.pool.DruidDataSource
   mvc:
     static-path-pattern: /static/**
