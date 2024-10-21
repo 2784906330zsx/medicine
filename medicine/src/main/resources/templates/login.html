@@ -11,12 +11,14 @@
     <header class="layui-elip">登录</header>
     <form class="layui-form">
         <div class="layui-input-inline">
-        <input type="text" name="username" required lay-verify="required" placeholder="用户名" class="layui-input" autocomplete="off">
+            <input type="text" name="username" required lay-verify="required" placeholder="用户名" class="layui-input"
+                   autocomplete="off">
         </div>
         <div class="layui-input-inline">
-            <input type="password" name="password" required lay-verify="required" placeholder="密码" class="layui-input" autocomplete="off">
+            <input type="password" name="password" required lay-verify="required" placeholder="密码" class="layui-input"
+                   autocomplete="off">
         </div>
-        <div class="layui-input-inline login-btn" >
+        <div class="layui-input-inline login-btn">
             <button lay-submit lay-filter="login" class="layui-btn">登录</button>
         </div>
     </form>
@@ -24,28 +26,28 @@
 <script th:src="@{/static/layui/layui.js}">
 </script>
 <script>
-    layui.use("form",function () {
-var form =layui.form;
-var $=layui.$;
-// 监听提交
-    form.on("submit(login)",function(data){
-       $.ajax({
-           url:"/toLogin",
-           type:"POST",
-           data:data.field,
-           dataType:"json",
-           success: function(result){
-               if(result.code==1) {
-                   layer.msg(result.msg, {icon: result.icon, anim: result.anim}, function () {
-                       location.href = "/index";//登陆成功，转向后台主页
-                   });
-               }else{
-                       layer.msg(result.msg,{icon:result.icon,anim:result.anim});
-               }
-           }
-       });
-       return false;
-    });
+    layui.use("form", function () {
+        var form = layui.form;
+        var $ = layui.$;
+        // 监听提交
+        form.on("submit(login)", function (data) {
+            $.ajax({
+                url: "/toLogin",
+                type: "POST",
+                data: data.field,
+                dataType: "json",
+                success: function (result) {
+                    if (result.code == 1) {
+                        layer.msg(result.msg, {icon: result.icon, anim: result.anim}, function () {
+                            location.href = "/index";//登录成功，转向后台主页
+                        });
+                    } else {
+                        layer.msg(result.msg, {icon: result.icon, anim: result.anim});
+                    }
+                }
+            });
+            return false;
+        });
     });
 </script>
 </body>
