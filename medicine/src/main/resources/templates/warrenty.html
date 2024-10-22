@@ -5,7 +5,7 @@
     <title>药品保质期检查</title>
     <link rel="stylesheet" th:href="@{/static/layui/css/layui.css}" media="all">
     <link rel="stylesheet" th:href="@{/static/admin/style.css}" media="all">
-    <script type="text/html" id="医院药房管理系统">
+    <script type="text/html" id="indexTp1">
         {{d.LAY_TABLE_INDEX+1}}
     </script>
 </head>
@@ -17,7 +17,6 @@
                 <div class="layui-card-body">
                     <table class="layui-hide" id="main-table" lay-filter="main-table"></table>
                     <script type="text/html" id="toolbarDemo">
-                        <span class="layui-inline" lay-event="add"><i class="layui-icon">&#xe654;</i> </span>
                         <span class="layui-inline" style="width:240px;">
                         <input class="layui-input" name="param" id="param" placeholder="根据药品名称查询"
                                autocomplete="off">

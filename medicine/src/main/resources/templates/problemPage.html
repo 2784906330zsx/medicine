@@ -14,12 +14,13 @@
             <form class="layui-form layui-form-pane" action="">
                 <input name="id" th:value="${obj?.id}" class="layui-input layui-hide">
                 <div class="layui-form-item">
+                    <label class="layui-form-label">药品名称</label>
                     <div class="layui-input-block">
                         <select name="mname" id="mname"></select>
                     </div>
                 </div>
                 <div class="layui-form-item">
-                    <label class="layui-form-label">问题药品数量</label>
+                    <label class="layui-form-label">药品数量</label>
                     <div class="layui-input-block">
                         <input type="text" name="mcount" th:value="${obj?.mcount}" lay-verify="required"
                                placeholder="请输入数量" autocomplete="off" class="layui-input">

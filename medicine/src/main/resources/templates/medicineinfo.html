@@ -50,21 +50,24 @@
             toolbar: '#toolbarDemo',
             cols: [
                 [
-                    {title: '序号', templet: '#indexTp1', align: 'center'},
+                    {title: '序号', templet: '#indexTp1', align: 'center', width: 60},
                     {field: 'mname', title: '药品名称', align: 'center'},
                     {field: 'mshortname', title: '简称', align: 'center'},
                     {field: 'mnameeng', title: '英文名', align: 'center'},
-                    {field: 'isprescription', title: '处方药', align: 'center'},
-                    {field: 'mcontent', title: '说明', align: 'center'},
+                    {field: 'number', title: '批准文号', align: 'center', width: 180},
                     {field: 'supplier', title: '供应商', align: 'center'},
-                    {field: 'warrenty', title: '保质期(月)', align: 'center'},
-                    {field: 'number', title: '编码', align: 'center'},
-                    {field: 'price', title: '价格', align: 'center'},
+                    {
+                        field: 'isprescription', title: '处方药', align: 'center', width: 100,
+                        templet: (row) => row.isprescription ? '是' : '否'
+                    },
+                    {field: 'mcontent', title: '说明', align: 'center'},
+                    {field: 'price', title: '价格(元/单位)', align: 'center'},
                     {field: 'stock', title: '库存', align: 'center'},
                     {
                         field: 'producttime', title: '生产时间', align: 'center',
                         templet: "<div>{{layui.util.toDateString(d.producttime,'yyyy-MM-dd')}}</div>"
                     },
+                    {field: 'warrenty', title: '保质期(月)', align: 'center', width: 120},
                     {title: '操作', align: 'center', toolbar: '#barDemo', fixed: 'right'}
                 ]
             ]
@@ -172,8 +175,6 @@
             }
         });
     });
-
-
 </script>
 </body>
 </html>
