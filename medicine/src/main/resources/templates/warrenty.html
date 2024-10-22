@@ -14,7 +14,6 @@
     <div class="layui-row layui-col-space15">
         <div class="layui-col-md12">
             <div class="layui-card">
-                <div class="layui-card-header">药品信息列表</div>
                 <div class="layui-card-body">
                     <table class="layui-hide" id="main-table" lay-filter="main-table"></table>
                     <script type="text/html" id="toolbarDemo">
@@ -62,6 +61,7 @@
                 ]
             ]
         });
+
         // 监听头工具栏时间
         table.on('toolbar(main-table)', function (obj) {
             switch (obj.event) {
@@ -78,7 +78,7 @@
             }
         });
 
-//判断是否过期
+        //判断是否过期
         function isWarrenty(d) {
             var p_time = d.producttime;
             p_time = p_time.split('-');

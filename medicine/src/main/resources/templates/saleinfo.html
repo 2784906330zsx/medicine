@@ -79,7 +79,6 @@
                         yes: function (index, layero) {
                             var iframeWindow = window['layui-layer-iframe' + index];
                             var submit = layero.find('iframe').contents().find("#LAY-front-submit");
-// 监听提交
                             iframeWindow.layui.form.on('submit(LAY-front-submit)', function (data) {
                                 var field = data.field;
                                 $.ajax({
@@ -128,7 +127,6 @@
                         yes: function (index, layero) {
                             var iframeWindow = window['layui-layer-iframe' + index];
                             var submit = layero.find('iframe').contents().find("#LAY-front-submit");
-// 监听提交
                             iframeWindow.layui.form.on('submit(LAY-front-submit)', function (data) {
                                 var field = data.field;
                                 $.ajax({
@@ -143,7 +141,7 @@
                                         layer.msg(str.msg, {icon: str.icon, anim: str.anim});
                                     }
                                 });
-                                layer.close(index); //关闭弹窗
+                                layer.close(index);
                             });
                             submit.trigger('click');
                         },

@@ -68,7 +68,7 @@
 
         //获取当前供应商的值
         var currentSname = '[[${obj?.sname}]]';
-//获取供应商列表
+        //获取供应商列表
         $.ajax({
             url: '/supplier/supplierList',
             dataType: 'json',
@@ -86,7 +86,6 @@
                 }
                 form.render(); //下拉列表渲染，把内容加载进去
             }
-
         });
 
         //获取当前药品的值

@@ -14,7 +14,6 @@
     <div class="layui-row layui-col-space15">
         <div class="layui-col-md12">
             <div class="layui-card">
-                <div class="layui-card-header">问题药品信息列表</div>
                 <div class="layui-card-body">
                     <table class="layui-hide" id="main-table" lay-filter="main-table"></table>
                     <script type="text/html" id="toolbarDemo">
@@ -151,7 +150,7 @@
                     });
                     break;
                 case 'del':
-                    layer.confirm('确认要删除嘛？', function (index) {
+                    layer.confirm('确认要删除吗？', function (index) {
                         $.ajax({
                             url: '/problem/problemDelById?id=' + data.id,
                             data: null,

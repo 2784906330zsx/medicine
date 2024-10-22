@@ -126,7 +126,6 @@
                         yes: function (index, layero) {
                             var iframeWindow = window['layui-layer-iframe' + index];
                             var submit = layero.find('iframe').contents().find("#LAY-front-submit");
-// 监听提交
                             iframeWindow.layui.form.on('submit(LAY-front-submit)', function (data) {
                                 var field = data.field;
                                 $.ajax({
@@ -150,7 +149,7 @@
                     });
                     break;
                 case 'del':
-                    layer.confirm('确认要删除嘛？', function (index) {
+                    layer.confirm('确认要删除吗？', function (index) {
                         $.ajax({
                             url: '/owinfo/owinfoDelById?id=' + data.id,
                             data: null,

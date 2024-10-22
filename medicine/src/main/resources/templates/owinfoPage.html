@@ -47,9 +47,9 @@
         var $ = layui.$;
         var form = layui.form;
 
-//获取当前药品的值
+        //获取当前药品的值
         var currentMname = '[[${obj?.mname}]]';
-//获取供应商列表
+        //获取供应商列表
         $.ajax({
             url: '/medicineinfo/medicineinfoList',
             dataType: 'json',

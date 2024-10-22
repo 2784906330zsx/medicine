@@ -1,7 +1,7 @@
-package com.javaclimb.medicine;
+package com.sdju.medicine;
 
-import com.javaclimb.medicine.entity.User;
-import com.javaclimb.medicine.service.impl.UserServiceImpl;
+import com.sdju.medicine.entity.User;
+import com.sdju.medicine.service.impl.UserServiceImpl;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
