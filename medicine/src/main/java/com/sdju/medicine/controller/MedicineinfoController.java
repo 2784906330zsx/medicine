@@ -3,7 +3,6 @@ package com.sdju.medicine.controller;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.sdju.medicine.common.ResultMapUtil;
 import com.sdju.medicine.entity.Medicineinfo;
-import com.sdju.medicine.entity.Supplier;
 import com.sdju.medicine.service.IMedicineinfoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -12,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.util.Date;
 import java.util.List;
 
 //药品相关的controller
