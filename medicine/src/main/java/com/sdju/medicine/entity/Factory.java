@@ -16,10 +16,10 @@ public class Factory implements Serializable {
     @TableField(value = "id")
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
-    //    药厂名称
+    //药厂名称
     private String fname;
-    //    药厂描述
+    //药厂描述
     private String fcontent;
-    //    创建时间
+    //创建时间
     private Date createtime;
 }

@@ -76,7 +76,6 @@ public class OwinfoController {
     /**
      * 修改药品出库
      *
-     * @param owinfo
      * @return
      */
     @RequestMapping(value = "/owinfoEdit")

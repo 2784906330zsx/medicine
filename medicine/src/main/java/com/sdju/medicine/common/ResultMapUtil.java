@@ -8,7 +8,9 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 //给前端返回的json格式数据
 public class ResultMapUtil {
 
-    //    登录返回结果
+    /**
+     * 登录返回结果
+     */
     public static HashMap<String, Object> getHashMapLogin(String msg, String code) {
         HashMap<String, Object> resultMap = new HashMap<>();
         resultMap.put("msg", msg);

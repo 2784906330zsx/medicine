@@ -69,7 +69,7 @@ public class FactoryController {
      * 转向供应商编辑页面
      */
     @RequestMapping(value = "/factoryQueryById")
-    public String factoryQueryById(@RequestParam(name = "id", required = true) Integer id, Model model) {
+    public String factoryQueryById(@RequestParam(name = "id") Integer id, Model model) {
         Factory factory = factoryService.queryFactoryById(id);
         model.addAttribute("obj", factory);
         return "/factoryPage";
@@ -78,7 +78,6 @@ public class FactoryController {
     /**
      * 修改供应商
      *
-     * @param factory
      * @return
      */
     @RequestMapping(value = "/factoryEdit")

@@ -76,7 +76,6 @@ public class ProblemController {
     /**
      * 修改问题药品
      *
-     * @param problem
      * @return
      */
     @RequestMapping(value = "/problemEdit")

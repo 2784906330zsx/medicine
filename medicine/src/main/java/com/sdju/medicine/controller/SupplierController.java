@@ -82,7 +82,6 @@ public class SupplierController {
     /**
      * 修改供应商
      *
-     * @param supplier
      * @return
      */
     @RequestMapping(value = "/supplierEdit")

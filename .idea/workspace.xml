@@ -6,40 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="da72e721-38f7-4ba8-bb0d-8c45dc723ad0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/controller/BillinfoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/controller/ReturngoodsController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/controller/ReturnsupplierController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/controller/SaleinfoController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/entity/Billinfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/entity/Returngoods.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/entity/Returnsupplier.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/entity/Saleinfo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/mapper/BillinfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/mapper/ReturngoodsMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/mapper/ReturnsupplierMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/mapper/SaleinfoMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/service/IBillinfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/service/IReturngoodsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/service/IReturnsupplierService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/service/ISaleinfoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/service/impl/BillinfoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/service/impl/ReturngoodsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/service/impl/ReturnsupplierServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/service/impl/SaleinfoServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/resources/templates/billinfo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/resources/templates/billinfoPage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/resources/templates/factory.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/resources/templates/factoryPage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/resources/templates/medicineinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/resources/templates/medicineinfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/resources/templates/owinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/resources/templates/owinfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/resources/templates/owinfoPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/resources/templates/owinfoPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/resources/templates/problemPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/resources/templates/problemPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/resources/templates/saleinfo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/resources/templates/saleinfoPage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/resources/templates/storageinfo.html" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/resources/templates/storageinfo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/resources/templates/storageinfoPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/resources/templates/storageinfoPage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medicine/src/main/resources/templates/warrenty.html" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/resources/templates/warrenty.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/common/ResultMapUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/common/ResultMapUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/config/ShiroFilterConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/config/ShiroFilterConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/controller/FactoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/controller/FactoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/controller/OwinfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/controller/OwinfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/controller/ProblemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/controller/ProblemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/controller/SupplierController.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/controller/SupplierController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/entity/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/entity/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/service/IMedicineinfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/service/IMedicineinfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/service/IStorageinfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/service/IStorageinfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/service/ISupplierService.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/service/ISupplierService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/service/IUserService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +41,15 @@
 }</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/config/MybatisPlusConfig.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/config/ShiroFilterConfiguration.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/controller/MedicineinfoController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/controller/OwinfoController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/controller/StorageinfoController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/entity/Factory.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/entity/Medicineinfo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/service/IFactoryService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/service/IMedicineinfoService.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/medicine/src/main/java/com/sdju/medicine/service/IStorageinfoService.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/medicine/src/main/resources/templates/index.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/medicine/src/main/resources/templates/login.html" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/medicine/src/main/resources/templates/medicineinfo.html" root0="SKIP_INSPECTION" />
@@ -148,6 +134,8 @@
       <workItem from="1729562352838" duration="5068000" />
       <workItem from="1729580517235" duration="985000" />
       <workItem from="1729597429469" duration="5205000" />
+      <workItem from="1729605217029" duration="705000" />
+      <workItem from="1729655908607" duration="1039000" />
     </task>
     <servers />
   </component>

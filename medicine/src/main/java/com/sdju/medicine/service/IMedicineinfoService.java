@@ -19,25 +19,21 @@ public interface IMedicineinfoService extends IService<Medicineinfo> {
 
     /**
      * 新增一条药品 药品名称
-     * @param medicineinfo
      */
     public int addMedicineinfo(Medicineinfo medicineinfo);
     /**
      * 修改一条药品
-     * @param medicineinfo
      */
     public int editMedicineinfo(Medicineinfo medicineinfo);
 
     /**
      * 根据主键id查询一个药品对象
-     * @param id
      * @return
      */
     public Medicineinfo queryMedicineinfoById(Integer id);
 
     /**
      * 根据主键id删除一个药品对象
-     * @param id
      * @return
      */
     public int delMedicineinfoById(Integer id);

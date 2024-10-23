@@ -3,7 +3,6 @@ package com.sdju.medicine.service;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.sdju.medicine.entity.Supplier;
-import com.sdju.medicine.entity.User;
 
 import java.util.List;
 
@@ -20,32 +19,25 @@ public interface ISupplierService extends IService<Supplier> {
 
     /**
      * 新增一条供应商 供应商名称
-     * @param supplier
      */
     public int addSupplier(Supplier supplier);
     /**
      * 修改一条供应商
-     * @param supplier
      */
     public int editSupplier(Supplier supplier);
 
     /**
      * 根据主键id查询一个供应商对象
-     * @param id
-     * @return
      */
     public Supplier querySupplierById(Integer id);
 
     /**
      * 根据主键id删除一个供应商对象
-     * @param id
-     * @return
      */
     public int delSupplierById(Integer id);
 
     /**
      * 查询所有供应商
-     * @return
      */
     public List<Supplier> querySupplierList();
 }

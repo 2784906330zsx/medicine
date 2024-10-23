@@ -20,16 +20,16 @@ public class ShiroFilterConfiguration {
         shiroFilterFactoryBean.setSecurityManager(securityManager());
         //shiro的内置过滤器，实现权限相关的拦截器
         Map<String, String> filterMap = new LinkedHashMap<>();
-//    anon无需登录，可以访问
-//    authc必须登录才可以访问
+        //anon无需登录，可以访问
+        //authc必须登录才可以访问
         filterMap.put("/static/**", "anon");
         filterMap.put("/login", "anon");
         filterMap.put("/toLogin", "anon");
         filterMap.put("/**", "authc");
         shiroFilterFactoryBean.setFilterChainDefinitionMap(filterMap);
-//    不登陆自动转向的页面
+        //不登陆自动转向的页面
         shiroFilterFactoryBean.setLoginUrl("/login");
-//   登陆后自动转向的页面
+        //登陆后自动转向的页面
         shiroFilterFactoryBean.setSuccessUrl("/index");
         return shiroFilterFactoryBean;
     }
@@ -43,8 +43,7 @@ public class ShiroFilterConfiguration {
 
     @Bean
     public UserRealm userRealm() {
-        UserRealm userRealm = new UserRealm();
-        return userRealm;
+        return new UserRealm();
     }
 
     @Bean
