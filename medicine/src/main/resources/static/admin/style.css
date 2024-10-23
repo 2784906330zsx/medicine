@@ -1,7 +1,36 @@
 @charset "utf-8";
 
 .layui-header {
-    background: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url('../image/header.webp');
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+
+.layui-header .layui-logo {
+    position: unset;
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.layui-header .layui-nav {
+    position: absolute;
+    right: 0;
+}
+
+.layui-header .layui-nav .layui-nav-item a {
+    color: black;
+}
+
+.layui-footer {
+    text-align: center;
 }
 
 .layui-layout-admin .my-header {
@@ -10,7 +39,7 @@
     left: 0;
     width: 100%;
     height: 60px;
-    background: #393D49;
+    background: #393d49;
     z-index: 2;
 }
 
@@ -87,7 +116,10 @@
     min-height: 100%;
 }
 
-.my-side ul.layui-nav li a i, .layui-nav .layui-nav-child a i, .layui-nav .layui-nav-item a i, .layui-tab-card > .layui-tab-title li span i {
+.my-side ul.layui-nav li a i,
+.layui-nav .layui-nav-child a i,
+.layui-nav .layui-nav-item a i,
+.layui-tab-card > .layui-tab-title li span i {
     margin-right: 5px;
 }
 
@@ -109,7 +141,8 @@
     padding: 10px;
 }
 
-.my-body .layui-tab, .my-body .layui-tab .layui-tab-content {
+.my-body .layui-tab,
+.my-body .layui-tab .layui-tab-content {
     margin: 0;
     padding: 0;
 }
@@ -118,7 +151,9 @@
     display: none;
 }
 
-.my-body .layui-tab, .my-body .layui-tab .layui-tab-content, .my-body .layui-tab .layui-tab-item {
+.my-body .layui-tab,
+.my-body .layui-tab .layui-tab-content,
+.my-body .layui-tab .layui-tab-item {
     height: 100%;
 }
 
@@ -184,7 +219,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../image/bg.png");
+    background-image: url('../image/bg.png');
     background-size: cover;
     background-position: center center;
     overflow: hidden;
@@ -240,7 +275,7 @@
 .login-main header {
     margin-bottom: 1em;
     font-size: 30px;
-    font-weight: 100;
+    font-weight: 500;
     text-align: center;
 }
 
@@ -251,11 +286,14 @@
     align-items: center;
 }
 
-.login-main form, .login-main form .layui-input-inline {
+.login-main form,
+.login-main form .layui-input-inline {
     margin-bottom: 15px;
 }
 
-.login-main form .layui-input-inline, .login-main form .layui-input-inline input, .login-main form .layui-input-inline button {
+.login-main form .layui-input-inline,
+.login-main form .layui-input-inline input,
+.login-main form .layui-input-inline button {
     width: 100%;
     border-radius: 10px;
 }
@@ -284,8 +322,8 @@ input[type='checkbox'] {
     position: relative;
     width: 20px;
     height: 20px;
-    background-color: #FFFFFF;
-    border: solid 2px #28B779;
+    background-color: #ffffff;
+    border: solid 2px #28b779;
     border-radius: 2px;
     background-clip: padding-box;
     display: inline-block;
@@ -293,8 +331,8 @@ input[type='checkbox'] {
 }
 
 .my-checkbox:checked {
-    background-color: #28B779;
-    border: solid 0 #28B779;
+    background-color: #28b779;
+    border: solid 0 #28b779;
 }
 
 .my-checkbox:checked:before {
@@ -305,9 +343,9 @@ input[type='checkbox'] {
     -webkit-transform: translate(50%, 50%);
     -ms-transform: translate(50%, 50%);
     transform: translate(50%, 50%);
-    font-family: "Microsoft Yahei";
-    content: "√";
-    color: #FFFFFF;
+    font-family: 'Microsoft Yahei';
+    content: '√';
+    color: #ffffff;
     font-size: 16px;
     font-weight: 600;
 }
@@ -335,7 +373,9 @@ input[type='checkbox'] {
 
 /* tips 404 */
 .my-page-box {
-    font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+    font-family: 'Segoe UI', 'Lucida Grande', Helvetica, Arial, 'Microsoft YaHei',
+    FreeSans, Arimo, 'Droid Sans', 'wenquanyi micro hei', 'Hiragino Sans GB',
+    'Hiragino Sans GB W3', FontAwesome, sans-serif;
     text-align: center;
     padding: 20px;
     background-color: white;
@@ -345,7 +385,10 @@ input[type='checkbox'] {
     font-size: 100px;
 }
 
-.my-page-box h2, .my-page-box h3, .my-page-box h4, .my-page-box h5 {
+.my-page-box h2,
+.my-page-box h3,
+.my-page-box h4,
+.my-page-box h5 {
     font-size: 80px;
 }
 
@@ -445,7 +488,7 @@ html .skin-2 .layui-nav .layui-nav-item a:hover {
 html .skin-2 .my-header,
 html .skin-2 .layui-nav,
 html .skin-2 .layui-nav-child {
-    background-color: #01AAED;
+    background-color: #01aaed;
 }
 
 html .skin-2 .layui-nav .layui-nav-item .layui-nav-child dd.layui-this a {
@@ -459,11 +502,11 @@ html .skin-2 .layui-nav .layui-nav-item .layui-nav-child dd:hover > a,
 html .skin-2 .layui-tab-title li .layui-tab-close:hover,
 html .skin-2 .dblclick-tips-box .layui-layer-content {
     color: white !important;
-    background-color: #00C0F7 !important;
+    background-color: #00c0f7 !important;
 }
 
 html .skin-2 .dblclick-tips-box i.layui-layer-TipsB {
-    border-right-color: #00C0F7;
+    border-right-color: #00c0f7;
 }
 
 html .skin-2 .layui-nav .layui-nav-itemed > a {
@@ -515,7 +558,9 @@ html body .layui-nav .layui-nav-bar {
     overflow: hidden !important;
 }
 
-.layui-nav .layui-this:after, .layui-nav-bar, .layui-nav-tree .layui-nav-itemed:after {
+.layui-nav .layui-this:after,
+.layui-nav-bar,
+.layui-nav-tree .layui-nav-itemed:after {
     background-color: transparent;
 }
 
@@ -532,7 +577,11 @@ html body .layui-nav .layui-nav-bar {
 
 /* media */
 @media screen and (max-width: 1023px) {
-    .my-header ul.layui-nav, .my-header-btn, .my-side, .layui-field-title, .my-btn-box .fr {
+    .my-header ul.layui-nav,
+    .my-header-btn,
+    .my-side,
+    .layui-field-title,
+    .my-btn-box .fr {
         display: none;
     }
 
@@ -541,7 +590,7 @@ html body .layui-nav .layui-nav-bar {
     }
 
     body div.my-mobile {
-        background: #393D49;
+        background: #393d49;
     }
 
     body div.my-mobile .layui-layer-content {
@@ -562,7 +611,9 @@ html body .layui-nav .layui-nav-bar {
         padding-right: 20px;
     }
 
-    .my-side, .layui-nav-tree, .my-btn-box input[type='text'] {
+    .my-side,
+    .layui-nav-tree,
+    .my-btn-box input[type='text'] {
         width: 150px;
     }
 
@@ -585,7 +636,7 @@ html body .layui-nav .layui-nav-bar {
     }
 }
 
-@media screen and ( max-width: 450px) {
+@media screen and (max-width: 450px) {
     .my-header ul.my-header-user-nav li a.pay {
         display: none;
     }
